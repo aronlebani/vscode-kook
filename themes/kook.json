@@ -51,41 +51,11 @@
 			"settings": {
 				"foreground": "#000080"
 			}
-		},
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#808080"
-			}
-		},
-		{
-			"scope": "constant.language",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": [
-				"constant.numeric",
-				"entity.name.operator.custom-literal.number",
-				"variable.other.enummember",
-				"keyword.operator.plus.exponent",
-				"keyword.operator.minus.exponent"
-			],
-			"settings": {
-				"foreground": "#dcdcaa"
-			}
-		},
+    },
 		{
 			"scope": "constant.regexp",
 			"settings": {
 				"foreground": "#646695"
-			}
-		},
-		{
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -185,13 +155,6 @@
 			}
 		},
 		{
-			"name": "brackets of XML/HTML tags",
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"foreground": "#808080"
-			}
-		},
-		{
 			"scope": [
 				"meta.preprocessor",
 				"entity.name.function.preprocessor"
@@ -225,54 +188,9 @@
 			}
 		},
 		{
-			"scope": "storage",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": "storage.type",
-			"settings": {
-        "foreground": "#569cd6",
-        "fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"storage.modifier",
-				"keyword.operator.noexcept"
-			],
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": [
-				"string",
-				"entity.name.operator.custom-literal.string",
-        "meta.embedded.assembly",
-        "string.tag",
-        "string.value"
-			],
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
 			"scope": "string.regexp",
 			"settings": {
 				"foreground": "#d16969"
-			}
-		},
-		{
-			"name": "String interpolation",
-			"scope": [
-				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end",
-				"punctuation.section.embedded"
-			],
-			"settings": {
-				"foreground": "#808080"
 			}
 		},
 		{
@@ -295,36 +213,6 @@
 			],
 			"settings": {
 				"foreground": "#ffffff"
-			}
-		},
-		{
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": "keyword.control",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": [
-        "keyword.operator",
-				"keyword.operator.new",
-				"keyword.operator.expression",
-				"keyword.operator.cast",
-				"keyword.operator.sizeof",
-				"keyword.operator.alignof",
-				"keyword.operator.typeid",
-				"keyword.operator.alignas",
-				"keyword.operator.instanceof",
-				"keyword.operator.logical.python",
-				"keyword.operator.wordlike"
-			],
-			"settings": {
-				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -366,88 +254,6 @@
 			}
 		},
 		{
-			"name": "this.self",
-			"scope": "variable.language",
-			"settings": {
-        "foreground": "#569cd6",
-        "fontStyle": "italic"
-			}
-    },
-		{
-			"name": "Function declarations",
-			"scope": [
-				"entity.name.function",
-				"support.function",
-				"support.constant.handlebars",
-				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
-			],
-			"settings": {
-				"foreground": "#4ec9b0"
-			}
-		},
-		{
-			"name": "Types declaration and references",
-			"scope": [
-				"meta.return-type",
-				"support.type",
-				"entity.name.type",
-				"entity.name.namespace",
-				"entity.other.attribute",
-				"entity.name.scope-resolution",
-				"entity.name.class",
-				"storage.type.numeric.go",
-				"storage.type.byte.go",
-				"storage.type.boolean.go",
-				"storage.type.string.go",
-				"storage.type.uintptr.go",
-				"storage.type.error.go",
-				"storage.type.rune.go",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
-			],
-			"settings": {
-        "foreground": "#c586c0"
-			}
-    },
-    {
-      "name": "React components",
-      "scope": "support.class.component",
-      "settings": {
-        "foreground": "#c586c0"
-      }
-    },
-		{
-			"name": "Types declaration and references, TS grammar specific",
-			"scope": [
-				"meta.type.cast.expr",
-				"meta.type.new.expr",
-				"support.constant.math",
-				"support.constant.dom",
-				"support.constant.json",
-				"entity.other.inherited-class"
-			],
-			"settings": {
-				"foreground": "#9cdcfe"
-			}
-		},
-		{
 			"name": "Control flow / Special keywords",
 			"scope": [
 				"keyword.control",
@@ -473,14 +279,6 @@
 			"settings": {
 				"foreground": "#ffffff"
 			}
-    },
-    {
-      "name": "Function parameters",
-      "scope": "variable.parameter",
-      "settings": {
-        "foreground": "#ffc354",
-        "fontStyle": "italic"
-      }
     },
 		{
 			"name": "Constants and enums",
@@ -576,6 +374,227 @@
 			}
     },
     {
+      "name": "(booleans, null, etc.)",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#569cd6"
+			}
+    },
+    {
+      "name": "Comments",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#808080"
+			}
+    },
+    {
+			"name": "(this, self, etc.)",
+			"scope": "variable.language",
+			"settings": {
+        "foreground": "#c586c0",
+        "fontStyle": "italic"
+			}
+    },
+		{
+      "name": "Constants (1, 3.14, etc.)",
+			"scope": [
+				"constant.numeric",
+				"entity.name.operator.custom-literal.number",
+				"variable.other.enummember",
+				"keyword.operator.plus.exponent",
+				"keyword.operator.minus.exponent"
+			],
+			"settings": {
+				"foreground": "#dcdcaa"
+			}
+    },
+    {
+      "name": "HTML and xml tags",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+    },
+    {
+      "name": "Types (int, double, etc.)",
+			"scope": [
+        "storage",
+        "storage.type"
+      ],
+			"settings": {
+        "foreground": "#c586c0",
+        "fontStyle": "italic"
+			}
+		},
+		{
+      "name": "Modifiers (static, etc.)",
+			"scope": [
+				"storage.modifier",
+				"keyword.operator.noexcept"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+      "name": "Strings",
+			"scope": [
+				"string",
+				"entity.name.operator.custom-literal.string",
+        "meta.embedded.assembly",
+        "string.tag",
+        "string.value"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+    },
+    {
+			"name": "Function calls",
+			"scope": [
+				"entity.name.function",
+				"support.function",
+				"support.constant.handlebars",
+        "source.powershell variable.other.member",
+				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+			],
+			"settings": {
+        "foreground": "#4ec9b0"
+			}
+    },
+    {
+      "name": "Function definitions",
+      "scope": [
+        "meta.definition.property entity.name.function",
+        "meta.definition.method entity.name.function",
+        "meta.definition.variable entity.name.function",
+        "meta.definition.function entity.name.function"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#ffc354",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function types",
+      "scope": [
+        "meta.parameters entity.name.type",
+        "meta.return.type"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "entity.name.type.class",
+        "entity.name.type.module",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"meta.return-type",
+				"support.type",
+				"entity.name.type",
+				"entity.name.namespace",
+				"entity.other.attribute",
+				"entity.name.scope-resolution",
+				"entity.name.class",
+				"storage.type.numeric.go",
+				"storage.type.byte.go",
+				"storage.type.boolean.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"storage.type.error.go",
+				"storage.type.rune.go",
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs",
+				"storage.type.annotation.java",
+				"storage.type.generic.java",
+				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"storage.type.primitive.java",
+				"storage.type.token.java",
+				"storage.type.groovy",
+				"storage.type.annotation.groovy",
+				"storage.type.parameters.groovy",
+				"storage.type.generic.groovy",
+				"storage.type.object.array.groovy",
+				"storage.type.primitive.array.groovy",
+				"storage.type.primitive.groovy"
+			],
+			"settings": {
+        "foreground": "#569cd6"
+			}
+    },
+    {
+			"name": "Types declaration and references, TS grammar specific",
+			"scope": [
+				"meta.type.cast.expr",
+				"meta.type.new.expr",
+				"support.constant.math",
+				"support.constant.dom",
+				"support.constant.json",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+    {
+      "name": "React components",
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#4ec9b0"
+      }
+    },
+    {
+      "name": "Operators",
+			"scope": [
+        "keyword.operator",
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.cast",
+				"keyword.operator.sizeof",
+				"keyword.operator.alignof",
+				"keyword.operator.typeid",
+				"keyword.operator.alignas",
+				"keyword.operator.instanceof",
+				"keyword.operator.logical.python",
+				"keyword.operator.wordlike"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+    {
+			"name": "String interpolation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+    {
       "name": "Obfuscate",
       "scope": [
         "meta.block",
@@ -595,7 +614,9 @@
         "puncutation.parameters.definition.end",
         "punctuation.separator.key-value",
         "keyword.operator.type.annotation",
-        "punctuation.terminator.statement"
+        "punctuation.terminator.statement",
+        "keyword.operator.assignment",
+        "punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#808080"
