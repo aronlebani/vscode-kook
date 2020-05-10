@@ -14,5 +14,21 @@
   "bugs": {
     "url": "https://github.com/aronlebani/vscode-kook/issues"
   },
-  "homepage": "https://github.com/aronlebani/vscode-kook#readme"
+  "homepage": "https://github.com/aronlebani/vscode-kook#readme",
+  "publisher": "claudioc",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kook",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kook.json"
+            }
+        ]
+    }
 }
