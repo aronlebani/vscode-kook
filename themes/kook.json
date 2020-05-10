@@ -254,33 +254,6 @@
 			}
 		},
 		{
-			"name": "Control flow / Special keywords",
-			"scope": [
-				"keyword.control",
-				"source.cpp keyword.operator.new",
-				"keyword.operator.delete",
-				"keyword.other.using",
-				"keyword.other.operator",
-				"entity.name.operator"
-			],
-			"settings": {
-        "foreground": "#DD2867",
-        "fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Variable and parameter name",
-			"scope": [
-				"variable",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-    },
-		{
 			"name": "Constants and enums",
 			"scope": [
 				"variable.other.constant",
@@ -374,13 +347,6 @@
 			}
     },
     {
-      "name": "(booleans, null, etc.)",
-			"scope": "constant.language",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-    },
-    {
       "name": "Comments",
 			"scope": "comment",
 			"settings": {
@@ -388,10 +354,52 @@
 			}
     },
     {
+			"name": "Control flow / Special keywords",
+			"scope": [
+				"keyword.control",
+				"source.cpp keyword.operator.new",
+				"keyword.operator.delete",
+				"keyword.other.using",
+				"keyword.other.operator",
+        "entity.name.operator",
+			],
+			"settings": {
+        "foreground": "#dd2867",
+        "fontStyle": "bold"
+			}
+    },
+    {
+      "name": "JavaScript arrows",
+      "scope": "storage.type.function.arrow",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#569cd6"
+      }
+    },
+		{
+			"name": "Variable names",
+			"scope": [
+				"variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+    },
+    {
+      "name": "(booleans, null, etc.)",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#569cd6"
+			}
+    },
+    {
 			"name": "(this, self, etc.)",
 			"scope": "variable.language",
 			"settings": {
-        "foreground": "#c586c0",
+        "foreground": "#569cd6",
         "fontStyle": "italic"
 			}
     },
@@ -416,13 +424,13 @@
 			}
     },
     {
-      "name": "Types (int, double, etc.)",
+      "name": "Type declarations (int, double, etc.)",
 			"scope": [
         "storage",
         "storage.type"
       ],
 			"settings": {
-        "foreground": "#c586c0",
+        "foreground": "#569cd6",
         "fontStyle": "italic"
 			}
 		},
@@ -433,7 +441,7 @@
 				"keyword.operator.noexcept"
 			],
 			"settings": {
-				"foreground": "#c586c0"
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -446,7 +454,7 @@
         "string.value"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#dcdcaa"
 			}
     },
     {
@@ -478,7 +486,7 @@
       "name": "Function parameters",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#ffc354",
+        "foreground": "#ffd382",
         "fontStyle": "bold"
       }
     },
@@ -504,7 +512,7 @@
       }
     },
 		{
-			"name": "Types declaration and references",
+			"name": "Types",
 			"scope": [
 				"meta.return-type",
 				"support.type",
@@ -537,16 +545,8 @@
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
-			],
-			"settings": {
-        "foreground": "#569cd6"
-			}
-    },
-    {
-			"name": "Types declaration and references, TS grammar specific",
-			"scope": [
-				"meta.type.cast.expr",
+        "storage.type.primitive.groovy",
+        "meta.type.cast.expr",
 				"meta.type.new.expr",
 				"support.constant.math",
 				"support.constant.dom",
@@ -554,14 +554,14 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+        "foreground": "#c586c0"
 			}
-		},
+    },
     {
       "name": "React components",
       "scope": "support.class.component",
       "settings": {
-        "foreground": "#4ec9b0"
+        "foreground": "#c586c0"
       }
     },
     {
