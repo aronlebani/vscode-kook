@@ -1,5 +1,4 @@
-const fs = require('fs');
-const kook, {
+const {
   grey,
   red,
   white,
@@ -28,5 +27,5 @@ const kook, {
     operators: blue,
   };
 
-  generate(params);
+  generate(params, red);
 })();
